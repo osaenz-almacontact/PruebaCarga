@@ -195,15 +195,6 @@ namespace PruebaCarga
         protected global::System.Web.UI.WebControls.DropDownList DropDetalleResponsable;
 
         /// <summary>
-        /// Control DropCiudad.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropCiudad;
-
-        /// <summary>
         /// Control DropDepartamento.
         /// </summary>
         /// <remarks>
@@ -211,6 +202,15 @@ namespace PruebaCarga
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDepartamento;
+
+        /// <summary>
+        /// Control DropCiudad.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropCiudad;
 
         /// <summary>
         /// Control TxtLocalidad.

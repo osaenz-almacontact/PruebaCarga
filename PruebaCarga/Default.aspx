@@ -337,16 +337,16 @@
                                         </asp:DropDownList>
                                     </div>
                                     <div class="form-group">
+                                        <label>Departamento</label>
+                                        <asp:DropDownList ID="DropDepartamento" class="form-control" runat="server" AutoPostBack="true" OnSelectedIndexChanged="DropDepartamento_OnSelectedIndexChanged">
+                                        </asp:DropDownList>
+                                    </div>
+                                    <div class="form-group">
                                         <label>Ciudad</label>
                                         <asp:DropDownList ID="DropCiudad" class="form-control" runat="server">
                                             <Items>
                                                 <asp:ListItem Text="(Seleccionar)" Value="-1" />
                                             </Items>
-                                        </asp:DropDownList>
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Departamento</label>
-                                        <asp:DropDownList ID="DropDepartamento" class="form-control" runat="server" AutoPostBack="true" OnSelectedIndexChanged="DropDepartamento_OnSelectedIndexChanged">
                                         </asp:DropDownList>
                                     </div>
                                     <div class="form-group">

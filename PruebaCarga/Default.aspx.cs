@@ -213,7 +213,7 @@ namespace PruebaCarga
                     adapter.Fill(DataConteoOrdenes);
                     LabPorVencer.Text = DataConteoOrdenes.Rows[0]["POR VENCER"].ToString();
                     LabVencidos.Text = DataConteoOrdenes.Rows[0]["VENCIDO"].ToString();
-                    LabActualizados.Text = DataConteoOrdenes.Rows[0]["EN TIEMPO"].ToString();
+                    LabActualizados.Text = DataConteoOrdenes.Rows[0]["ACTUALIZADO"].ToString();
 
                 }
             }
@@ -230,7 +230,7 @@ namespace PruebaCarga
                 {
                     e.Row.Cells[7].BackColor = Color.Orange;
                 }
-                else if (e.Row.Cells[7].Text == "EN TIEMPO")
+                else if (e.Row.Cells[7].Text == "ACTUALIZADO")
                 {
                     e.Row.Cells[7].BackColor = Color.Green;
                 }
@@ -425,6 +425,7 @@ namespace PruebaCarga
         {
             try
             {
+
                 DataTable DtDatos;
                 string consultaPersona = "GardarComentario";
 
@@ -463,7 +464,7 @@ namespace PruebaCarga
                     DataInforme.DataBind();
 
                 }
-                ObetnerOrdenes();
+                //ObetnerOrdenes();
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "CallMyFunction", "showContent('success','Actualización guardada exitosamente.');", true);
 
                 LabNumeroOrden.Text = "";
